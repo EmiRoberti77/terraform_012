@@ -1,8 +1,8 @@
 terraform {
     backend "s3" {
         key = "terraform/tfstate.tfstate"
-        bucket = "tj-remote-backend-2020"
+        bucket = "emi-remote-terraform-backend-2023"
         region = "eu-west-2"
-        
+
     }
 }
